@@ -58,7 +58,7 @@ async function rodada() {
 
 	//exibe o vencedor ou vencedores caso tenha empate no placar final
 	console.log(`O(s) vencedor(es) do jogo é(sao): `);
-	for (const v of vencedoresJogo) console.log(v.nome);
+	for (const v of vencedoresJogo) console.log(`${v.nome} com ${v.vitorias} vitórias`);
 }
 
 rodada();
